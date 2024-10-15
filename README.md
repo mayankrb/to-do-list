@@ -53,6 +53,6 @@ A sleek and interactive **To-Do List Application** built with **React**. This ap
 3. **Reorder Tasks**: Drag any task and drop it in the desired position to rearrange the task list.
 4. **LocalStorage**: Tasks are saved automatically to `localStorage` and will remain even after refreshing the page.
  
-- **GitHub**: [https://github.com/yourusername](https://github.com/mayankrb)
+- **GitHub**: [https://github.com/mayankrb](https://github.com/mayankrb)
 
 
