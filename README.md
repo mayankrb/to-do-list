@@ -51,12 +51,8 @@ A sleek and interactive **To-Do List Application** built with **React**. This ap
 1. **Add Task**: Type your task in the input box and click on the **"+ Add Task"** button to add it to the list.
 2. **View Toggle**: Click the toggle button (grid/list icon) to switch between grid and list layouts.
 3. **Reorder Tasks**: Drag any task and drop it in the desired position to rearrange the task list.
-4. **Task Priority**: Tasks are color-coded to represent their priority, with the highest priority at the top (e.g., Red for High, Green for Low).
-5. **LocalStorage**: Tasks are saved automatically to `localStorage` and will remain even after refreshing the page.
+4. **LocalStorage**: Tasks are saved automatically to `localStorage` and will remain even after refreshing the page.
  
 - **GitHub**: [https://github.com/yourusername](https://github.com/mayankrb)
 
----
-
-Feel free to update the screenshot URL (`./screenshot.png`) with the correct path or an uploaded image if you're including a screenshot in your repository. Additionally, replace placeholder values (like `yourusername`, `demo link`, etc.) with your actual details before uploading to GitHub.
 
