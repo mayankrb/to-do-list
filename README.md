@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Target Tracker
+![image](https://github.com/user-attachments/assets/85c5a3a2-9ffb-491d-9397-c8db383f391b)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek and interactive **To-Do List Application** built with **React**. This application allows users to manage their tasks, reorder them, and toggle between **grid** and **list views**. The tasks are persisted using **localStorage** so that your data stays intact across sessions.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add and Delete Tasks**: Seamlessly manage tasks with a clean user interface. Tasks can be added and deleted as required. For deletion double-click on the task.
+- **Toggle Between Grid and List Views**: Switch the layout using the toggle button in the middle of the task list.
+- **Reorder Tasks with Drag-and-Drop**: Drag tasks to reorder them according to priority or personal preference.
+- **Persistent Data**: Tasks are stored in the browser using `localStorage`, meaning they persist across page reloads.
+- **Dark Mode**: The application features a modern, dark theme with stylish gradients.
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Node.js** (v12.x or later)
+- **npm** (comes with Node.js)
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/mayankrb/to-do-list.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Navigate to the project folder:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd to-do-list
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install dependencies:**
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Run the app:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   The app will start in your default browser at `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+1. **Add Task**: Type your task in the input box and click on the **"+ Add Task"** button to add it to the list.
+2. **View Toggle**: Click the toggle button (grid/list icon) to switch between grid and list layouts.
+3. **Reorder Tasks**: Drag any task and drop it in the desired position to rearrange the task list.
+4. **Task Priority**: Tasks are color-coded to represent their priority, with the highest priority at the top (e.g., Red for High, Green for Low).
+5. **LocalStorage**: Tasks are saved automatically to `localStorage` and will remain even after refreshing the page.
+ 
+- **GitHub**: [https://github.com/yourusername](https://github.com/mayankrb)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to update the screenshot URL (`./screenshot.png`) with the correct path or an uploaded image if you're including a screenshot in your repository. Additionally, replace placeholder values (like `yourusername`, `demo link`, etc.) with your actual details before uploading to GitHub.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
